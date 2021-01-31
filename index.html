@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Pendu</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue au <br> Jeu du Pendu</h1>
+    <p>Devinez le mot suivant :</p>
+    <button id="play">Play</button>
+
+    <div id="mot-vide"></div>
+    <h2>Sélectionnez une lettre :</h2>
+    <select name="" id="lettres">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+        <option value="f">F</option>
+        <option value="g">G</option>
+        <option value="h">H</option>
+        <option value="i">I</option>
+        <option value="j">J</option>
+        <option value="k">K</option>
+        <option value="l">L</option>
+        <option value="m">M</option>
+        <option value="n">N</option>
+        <option value="o">O</option>
+        <option value="p">P</option>
+        <option value="q">Q</option>
+        <option value="r">R</option>
+        <option value="s">S</option>
+        <option value="t">T</option>
+        <option value="u">U</option>
+        <option value="v">V</option>
+        <option value="w">W</option>
+        <option value="x">X</option>
+        <option value="y">Y</option>
+        <option value="z">Z</option>
+    </select>
+    <button id="submit" type="submit">Valider</button>
+    <div id="tentatives"></div>
+    <div id="mot-recherche"></div>
+    <div id="resultat"></div>
+    <div id="gif-win">
+        <div style="width:100%;height:0;padding-bottom:124%;position:relative;"><iframe src="https://giphy.com/embed/J5xo6FNn866EsBH4BI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    </div>
+    <div id="gif-lose">
+        <iframe src="https://giphy.com/embed/xjLn8UubLYYRvSbMK9" width="420" height="480" frameBorder="0" class="giphy-embed"></iframe>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #48466d;
+  color: #abedd8;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  padding: 5%;
+  font-size: 3.5rem;
+}
+p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#mot-vide, h2, #tentatives, #mot-recherche, #resultat {
+  font-size: 2.0rem;
+  margin: 2%;
+}
+
+#lettres {
+  background-color: #3d84a8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+
+button {
+  background-color: #3d84a8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+button:hover, #lettres:hover{
+  background-color: #46cdcf;
+}
+
+#gif-win, #gif-lose {
+  text-align: center;
+  max-width: 30%;
+  display: inline-flexbox;
+}
+
